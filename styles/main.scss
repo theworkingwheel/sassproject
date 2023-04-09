@@ -1,11 +1,16 @@
 @use "./vendor/normalize";
 @use "./partials/colors";
+@use "./partials/mixins";
 
 
 
 
 h1 {
  color: colors.$primaryColor;
+}
+
+.button {
+    @include mixins.button(blue);
 }
 
 

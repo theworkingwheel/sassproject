@@ -312,6 +312,16 @@ h1 {
   color: green;
 }
 
+.button {
+  color: rgb(184, 96, 96);
+  background-color: blue;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 1em;
+  font-size: 1em;
+  border-style: none;
+}
+
 nav ul {
   margin: 0;
   padding: 0;
