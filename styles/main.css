@@ -361,6 +361,9 @@ nav a {
   text-decoration: none;
   color: #575757;
 }
+nav a:hover {
+  background-color: #150300;
+}
 
 .nav-links {
   list-style: none;

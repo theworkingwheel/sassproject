@@ -51,10 +51,14 @@ nav {
       padding: 5px 10px;
       text-decoration: none;
       color: colors.$primary-font-color;
+      &:hover {
+        background-color: colors.$darker-background;
+      }
       
     }
-
   }
+  
+
 
   .nav-links {
     list-style: none;
