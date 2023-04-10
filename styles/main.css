@@ -320,7 +320,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Montserrat";
+  font-family: "Marck Script";
   font-size: 36px;
   color: #2d3e50;
   padding: 10px 20px;
@@ -329,7 +329,10 @@ h2 {
 h3 {
   color: #DB8D33;
   font-family: "Marck Script", san-serif;
-  padding: 5px 10px;
+  font-family: "Montserrat";
+  font-size: 36px;
+  color: #2d3e50;
+  padding: 10px 20px;
 }
 
 p {
@@ -365,10 +368,10 @@ nav a:hover {
   background-color: #150300;
 }
 
-.nav-links {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: flex-end;
-}/*# sourceMappingURL=main.css.map */
+/*  .nav-links {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: flex-end;
+ } *//*# sourceMappingURL=main.css.map */

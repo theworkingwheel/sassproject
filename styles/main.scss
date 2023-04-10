@@ -16,13 +16,16 @@ h1 {
 
 h2 {
 
-  @include mixins.title(36px, #2d3e50, 'Montserrat');
+  @include mixins.title(36px, #2d3e50, 'Marck Script');
+
 }
 
 h3 {
     color: colors.$secondary-font-color;
     font-family: typography.$heading;
-    padding: 5px 10px;
+    //padding: 5px 10px;
+
+    @include mixins.title(36px, #2d3e50, 'Montserrat');
 
 }
 
@@ -60,10 +63,10 @@ nav {
   
 
 
-  .nav-links {
+ /*  .nav-links {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: flex-end;
-  }
+  } */
