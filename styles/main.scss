@@ -1,16 +1,24 @@
 @use "./vendor/normalize";
 @use "./partials/colors";
 @use "./partials/mixins";
-
+@use "./partials/typography";
 
 
 
 h1 {
- color: colors.$primaryColor;
+ color: colors.$primary-font-color;
+
+ @include mixins.heading(36px, #2d3e50, $primary-font:'Dosis');
+
+}
+
+h3 {
+    color: colors.$secondary-font-color;
+
 }
 
 .button {
-    @include mixins.button(blue);
+    @include mixins.button(rgb(143, 143, 189));
 }
 
 
@@ -27,6 +35,15 @@ nav {
       display: block;
       padding: 5px 10px;
       text-decoration: none;
-      color: colors.$fontColor;
+      color: colors.$primary-font-color;
+      
     }
+  }
+
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
   }
