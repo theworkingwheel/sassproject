@@ -10,8 +10,8 @@
     cursor: pointer;
   }
 
-  @mixin heading($size, $color, $primary-font) {
-    font-family: $primary-font;
+  @mixin heading($size, $color, $heading) {
+    font-family: $heading;
     font-size: $size;
     color: $color;
     padding: 10px 20px;

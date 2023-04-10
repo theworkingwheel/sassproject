@@ -313,7 +313,7 @@ template {
 
 h1 {
   color: #575757;
-  font-family: "Dosis";
+  font-family: "Marck Script";
   font-size: 36px;
   color: #2d3e50;
   padding: 10px 20px;
@@ -330,6 +330,10 @@ h3 {
   color: #DB8D33;
   font-family: "Marck Script", san-serif;
   padding: 5px 10px;
+}
+
+p {
+  font-family: "Dosis", san-serif;
 }
 
 .button {

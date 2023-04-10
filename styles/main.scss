@@ -8,7 +8,7 @@
 h1 {
  color: colors.$primary-font-color;
 
- @include mixins.heading(36px, #2d3e50, 'Dosis');
+ @include mixins.heading(36px, #2d3e50, 'Marck Script');
 
  
 
@@ -24,7 +24,11 @@ h3 {
     font-family: typography.$heading;
     padding: 5px 10px;
 
+}
 
+p {
+
+  font-family: typography.$primary-font;
 
 }
 
@@ -49,6 +53,7 @@ nav {
       color: colors.$primary-font-color;
       
     }
+
   }
 
   .nav-links {
