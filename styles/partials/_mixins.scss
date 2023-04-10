@@ -14,5 +14,18 @@
     font-family: $primary-font;
     font-size: $size;
     color: $color;
+    padding: 10px 20px;
+
     
   }
+
+  @mixin title($size, $color, $title) {
+    font-family: $title;
+    font-size: $size;
+    color: $color;
+    padding: 10px 20px;
+
+    
+  }
+
+  

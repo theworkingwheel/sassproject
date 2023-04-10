@@ -8,12 +8,23 @@
 h1 {
  color: colors.$primary-font-color;
 
- @include mixins.heading(36px, #2d3e50, $primary-font:'Dosis');
+ @include mixins.heading(36px, #2d3e50, 'Dosis');
 
+ 
+
+}
+
+h2 {
+
+  @include mixins.title(36px, #2d3e50, 'Montserrat');
 }
 
 h3 {
     color: colors.$secondary-font-color;
+    font-family: typography.$heading;
+    padding: 5px 10px;
+
+
 
 }
 
