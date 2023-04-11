@@ -6,7 +6,6 @@
 
 
 h1 {
- color: colors.$primary-font-color;
 
  @include mixins.heading(36px, #2d3e50, 'Marck Script');
 
@@ -29,13 +28,6 @@ h3 {
 }
 
 
-
-
-.button {
-    @include mixins.button(rgb(143, 143, 189));
-}
-
-
 nav {
   background-color: #414141;
 
@@ -50,10 +42,10 @@ nav {
       display: inline-block; 
       }
     a {
+      @include mixins.links(#DB8D33);
       display: block;
       padding: 5px 10px;
       text-decoration: none;
-      color: #c4bfbf;
       &:hover {
         background-color: colors.$primary-font-color
       }
@@ -68,7 +60,7 @@ nav {
        img {
 
         margin-top:-9px;
-        padding: 0px 70px 4px;
+        padding: 0px 172px 4px;
 
       }
 
@@ -90,10 +82,12 @@ nav {
   
   }
 
- /*  .nav-links {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: flex-end;
-  } */
+ footer {
+ 
+  p{
+    background-color: colors.$darker-background;
+
+    @include mixins.title(20px, #ffffff, 'Montserrat');
+  }
+
+ }

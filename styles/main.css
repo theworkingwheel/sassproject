@@ -312,10 +312,9 @@ template {
 }
 
 h1 {
-  color: #575757;
   font-family: "Marck Script";
   font-size: 36px;
-  color: #2d3e50;
+  color: white;
   padding: 10px;
 }
 
@@ -323,7 +322,7 @@ h2 {
   font-family: "Marck Script";
   font-size: 36px;
   color: #DB8D33;
-  padding: 0px 18px;
+  padding: 0px 134px;
 }
 
 h3 {
@@ -332,18 +331,7 @@ h3 {
   font-family: "Montserrat";
   font-size: 36px;
   color: #2d3e50;
-  padding: 0px 18px;
-}
-
-.button {
-  background-color: rgb(143, 143, 189);
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  text-transform: uppercase;
-  font-weight: bold;
-  cursor: pointer;
+  padding: 0px 134px;
 }
 
 nav {
@@ -360,10 +348,17 @@ nav li {
   display: inline-block;
 }
 nav a {
+  background-color: #DB8D33;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
   display: block;
   padding: 5px 10px;
   text-decoration: none;
-  color: #c4bfbf;
 }
 nav a:hover {
   background-color: #575757;
@@ -371,7 +366,7 @@ nav a:hover {
 
 div figure img {
   margin-top: -9px;
-  padding: 0px 70px 4px;
+  padding: 0px 172px 4px;
 }
 
 p {
@@ -386,10 +381,10 @@ p a:hover {
   background-color: #150300;
 }
 
-/*  .nav-links {
-   list-style: none;
-   margin: 0;
-   padding: 0;
-   display: flex;
-   justify-content: flex-end;
- } *//*# sourceMappingURL=main.css.map */
+footer p {
+  background-color: #150300;
+  font-family: "Montserrat";
+  font-size: 20px;
+  color: #ffffff;
+  padding: 0px 134px;
+}/*# sourceMappingURL=main.css.map */
