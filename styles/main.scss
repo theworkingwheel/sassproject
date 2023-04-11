@@ -16,24 +16,20 @@ h1 {
 
 h2 {
 
-  @include mixins.title(36px, #2d3e50, 'Marck Script');
+  @include mixins.title(36px, #DB8D33, 'Marck Script');
 
 }
 
 h3 {
     color: colors.$secondary-font-color;
     font-family: typography.$heading;
-    //padding: 5px 10px;
 
     @include mixins.title(36px, #2d3e50, 'Montserrat');
 
 }
 
-p {
 
-  font-family: typography.$primary-font;
 
-}
 
 .button {
     @include mixins.button(rgb(143, 143, 189));
@@ -41,7 +37,12 @@ p {
 
 
 nav {
+
+  
+
     ul {
+      display: flex;
+      justify-content: flex-end;
       margin: 0;
       padding: 0;
       list-style: none;
@@ -61,7 +62,34 @@ nav {
     }
   }
   
+  div {
 
+    figure {
+
+       img {
+
+        margin-top:-9px;
+        padding: 0px 70px 4px;
+
+      }
+
+    }
+  }
+ 
+  p {
+
+    @include mixins.paragraph(20px, black, 'Dosis');
+
+    a {
+      
+      color: colors.$primary-font-color;
+      &:hover {
+        background-color: colors.$darker-background;
+      }
+      
+    }
+  
+  }
 
  /*  .nav-links {
     list-style: none;

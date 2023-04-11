@@ -316,14 +316,14 @@ h1 {
   font-family: "Marck Script";
   font-size: 36px;
   color: #2d3e50;
-  padding: 10px 20px;
+  padding: 10px;
 }
 
 h2 {
   font-family: "Marck Script";
   font-size: 36px;
-  color: #2d3e50;
-  padding: 10px 20px;
+  color: #DB8D33;
+  padding: 0px 18px;
 }
 
 h3 {
@@ -332,11 +332,7 @@ h3 {
   font-family: "Montserrat";
   font-size: 36px;
   color: #2d3e50;
-  padding: 10px 20px;
-}
-
-p {
-  font-family: "Dosis", san-serif;
+  padding: 0px 18px;
 }
 
 .button {
@@ -351,6 +347,8 @@ p {
 }
 
 nav ul {
+  display: flex;
+  justify-content: flex-end;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -365,6 +363,23 @@ nav a {
   color: #575757;
 }
 nav a:hover {
+  background-color: #150300;
+}
+
+div figure img {
+  margin-top: -9px;
+  padding: 0px 70px 4px;
+}
+
+p {
+  font-family: "Dosis";
+  font-size: 20px;
+  margin: 10px 20px;
+}
+p a {
+  color: #575757;
+}
+p a:hover {
   background-color: #150300;
 }
 
