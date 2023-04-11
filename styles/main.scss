@@ -37,8 +37,7 @@ h3 {
 
 
 nav {
-
-  
+  background-color: #414141;
 
     ul {
       display: flex;
@@ -54,9 +53,9 @@ nav {
       display: block;
       padding: 5px 10px;
       text-decoration: none;
-      color: colors.$primary-font-color;
+      color: #c4bfbf;
       &:hover {
-        background-color: colors.$darker-background;
+        background-color: colors.$primary-font-color
       }
       
     }

@@ -346,6 +346,9 @@ h3 {
   cursor: pointer;
 }
 
+nav {
+  background-color: #414141;
+}
 nav ul {
   display: flex;
   justify-content: flex-end;
@@ -360,10 +363,10 @@ nav a {
   display: block;
   padding: 5px 10px;
   text-decoration: none;
-  color: #575757;
+  color: #c4bfbf;
 }
 nav a:hover {
-  background-color: #150300;
+  background-color: #575757;
 }
 
 div figure img {
